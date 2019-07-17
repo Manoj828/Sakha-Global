@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66342" started-at="2019-07-17T06:51:48Z" finished-at="2019-07-17T06:52:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66342" started-at="2019-07-17T06:51:48Z" finished-at="2019-07-17T06:52:54Z">
+      <class name="com.qa.sg.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.sg.testcases.HomePageTest@6ba0ac]" name="setup" is-config="true" duration-ms="23197" started-at="2019-07-17T06:51:48Z" finished-at="2019-07-17T06:52:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="JoinUsPageTitleTest()[pri:9, instance:com.qa.sg.testcases.HomePageTest@6ba0ac]" name="JoinUsPageTitleTest" duration-ms="5493" started-at="2019-07-17T06:52:11Z" finished-at="2019-07-17T06:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JoinUsPageTitleTest -->
+        <test-method status="PASS" signature="tearup()[pri:0, instance:com.qa.sg.testcases.HomePageTest@6ba0ac]" name="tearup" is-config="true" duration-ms="1" started-at="2019-07-17T06:52:16Z" finished-at="2019-07-17T06:52:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.sg.testcases.HomePageTest@6ba0ac]" name="setup" is-config="true" duration-ms="25318" started-at="2019-07-17T06:52:16Z" finished-at="2019-07-17T06:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="InsightPageTitleTest()[pri:10, instance:com.qa.sg.testcases.HomePageTest@6ba0ac]" name="InsightPageTitleTest" duration-ms="12194" started-at="2019-07-17T06:52:42Z" finished-at="2019-07-17T06:52:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Insight/| Sakha Global] but found [Insight | Sakha Global]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Insight/| Sakha Global] but found [Insight | Sakha Global]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.qa.sg.testcases.HomePageTest.InsightPageTitleTest(HomePageTest.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsightPageTitleTest -->
+        <test-method status="PASS" signature="tearup()[pri:0, instance:com.qa.sg.testcases.HomePageTest@6ba0ac]" name="tearup" is-config="true" duration-ms="0" started-at="2019-07-17T06:52:54Z" finished-at="2019-07-17T06:52:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- com.qa.sg.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
